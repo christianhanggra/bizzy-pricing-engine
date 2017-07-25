@@ -1,0 +1,32 @@
+{
+    "name": "christianhanggra/bizzy-pricing-engine",
+    "description": "Bizzy Pricing Engine Repository for Laravel 5.3",
+    "keywords": [
+        "laravel",
+        "bizzy",
+        "pricing",
+        "engine"
+    ],
+    "homepage": "https://github.com/christianhanggra/bizzy-pricing-engine",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Hanggra",
+            "email": "christianhanggra@gmail.com",
+            "homepage": "https://github.com/christianhanggra",
+            "role": "Tech Enthusiast"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.3.*",
+        "illuminate/contracts": "5.3.*",
+        "illuminate/container": "5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Christianhanggra\\Bizzy\\PricingEngine\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
