@@ -4,7 +4,7 @@ namespace Christianhanggra\Bizzy\PricingEngine\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Calculator extends Facade
+class Backoffice extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -13,6 +13,6 @@ class Calculator extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'Christianhanggra\Bizzy\PricingEngine\Calculator';
+        return 'Christianhanggra\Bizzy\PricingEngine\Backoffice';
     }
 }

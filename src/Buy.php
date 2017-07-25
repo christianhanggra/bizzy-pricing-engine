@@ -4,6 +4,6 @@ namespace Christianhanggra\Bizzy\PricingEngine;
 
 use Christianhanggra\Bizzy\PricingEngine\Calculator;
 
-class Buy implements Calculator
+class Buy extends Calculator
 {
 }
